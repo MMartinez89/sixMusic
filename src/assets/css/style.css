@@ -151,6 +151,7 @@ h3 {
 h4 {
     font-size: 24px;
     line-height: 27px;
+    color: white;
 }
 
 h5 {
@@ -1500,6 +1501,7 @@ address {
     padding-left: 30px;
     position: relative;
     text-transform: uppercase;
+    color: white;
 }
 
 .px-team-bg .main-heading h2 {
@@ -1539,6 +1541,7 @@ address {
     line-height: 28px;
     margin: 0 0 15px;
     text-transform: uppercase;
+    color: white;
 }
 
 .px-biography article .px-text {
@@ -7122,6 +7125,15 @@ ul.px-partners li a {
 }
 
 .px-fancy-heading h2 {
+    color: #2c2f36;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    color: white;
+}
+
+.px-fancy-2-heading h2 {
     color: #2c2f36;
     font-size: 50px;
     font-weight: 700;
