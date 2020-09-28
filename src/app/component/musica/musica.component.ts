@@ -11,7 +11,7 @@ export class MusicaComponent implements OnInit {
 
   topTracks: any[] = [];
   constructor(private spotifyService: SpotifyService) {
-    this.spotifyService.topTracks('0du5cEVh5yTK9QJze8zA0C')
+    this.spotifyService.topTracks('4QfIAajOjv8mMdWMy9fM0g')
     .subscribe((data: any[]) => {
       this.topTracks = data;
       console.log(this.topTracks);
